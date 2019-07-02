@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    color: bisque;
+}
+nav{
+    background-color: salmon;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover{
+    color: #000000;
+}
+
+.banner{
+    height: 600px;
+    background-image: url("img/receitasestaçãohack.jpeg");
+    background-size: cover;
+}
+
+.banner h1, h4{
+    background-color: #000000;
+    opacity: 0.8;
+    color: beige;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: bisque;
+    margin:0%;
+    padding: 5px;
+}
+h4{
+    font-size: 20px;
+    margin: 410px 360px;
+}
+.cadastro{
+    color: salmon;  
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    width: 300px;
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.botao:hover{
+    background-color: salmon;
+    color: beige;
+    font-size: 20px;
+}
+::placeholder{
+    color: salmon;
+    font-size: 15px;
+    
+}
+
+footer{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 50px;
+    
+}
+
+footer a{
+    color: salmon;
+    text-decoration: none;
+}
+
